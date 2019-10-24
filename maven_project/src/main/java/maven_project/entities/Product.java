@@ -1,6 +1,5 @@
 package maven_project.entities;
 
-import org.junit.Test;
 
 public class Product {
 
