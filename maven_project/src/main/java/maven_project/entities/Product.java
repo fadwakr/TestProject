@@ -37,9 +37,10 @@ public class Product {
 		}else if (name == "Orange") 	{
 			quantite =  number_product;
 		}else if (name =="Watermelon") {
-			if (number_product %  2 == 0 ) {
-			quantite = number_product+ 3*(number_product/2);
-			}
+	
+			quantite = number_product  + 3*(number_product/2);
+		
+		
 		}
 		return quantite;
 	}
